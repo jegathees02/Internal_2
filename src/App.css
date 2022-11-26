@@ -1,38 +1,66 @@
-.App {
+.App{
+  padding: 0%;
+  margin: 0%;
+}
+
+
+body{
+  background-color:grey;
+}
+
+h1{
+  margin-left: 0%;
+  font-size: 30px;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  color:white;
+  font-size: 50px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3{
+  float: right;
+  margin-right: 10px;
+  margin-left: 10%;
+  color: wheat;
+  font-size: 30px;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#dropdown-main{
+  width: 400px;
+  height: 300px;
+  border: 5px solid whitesmoke;
+  background-color: black;
+  margin-top:1%;
+  margin-right: 5%;
+  border-radius: 8px;
+  float: right;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+select{
+  font-size: 30px;
+  text-align: center;
+  height: 60px;
+  width: 230px;
+  border-radius: 6px;
+  color: red;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 0px;
+  margin-left:5%
 }
 
-.App-link {
-  color: #61dafb;
+select:hover{
+  background-color: lightgray;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+option:hover{
+  background-color: gray;
+}
+
+option{
+  width: 20px;
+  font-size: 20px;
+  
 }
